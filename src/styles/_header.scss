@@ -1,0 +1,17 @@
+header{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.photo{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+border: 1px solid #848484;
+}
+
+.title{
+  text-align: center;
+}
