@@ -31,7 +31,7 @@ header {
     margin: 0;
     font-size: 20px;
     color: rgba(245, 245, 245, 0.164);
-    background-image: url("/dist/images/OIP.jpg");
+    background-image: url("/public/images/OIP.jpg");
     background-repeat: repeat;
     -webkit-background-clip: text;
     animation: animate 15s ease-in-out infinite;
@@ -78,7 +78,7 @@ header {
   display: block;
   width: 0.8rem;
   height: 0.8rem;
-  background-image: url("/dist/images/user.svg");
+  background-image: url("/public/images/user.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header {
   display: inline-block;
   width: 0.8rem;
   height: 0.8rem;
-  background-image: url("/dist/images/location.svg");
+  background-image: url("/public/images/location.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ header {
   display: inline-block;
   width: 0.8rem;
   height: 0.8rem;
-  background-image: url("/dist/images/phone.svg");
+  background-image: url("/public/images/phone.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ header {
   display: inline-block;
   width: 0.8rem;
   height: 0.8rem;
-  background-image: url("/dist/images/mail.svg");
+  background-image: url("/public/images/mail.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

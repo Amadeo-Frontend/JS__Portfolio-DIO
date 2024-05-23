@@ -17,7 +17,7 @@ body {
   align-items: center;
   font-family: "Open Sans", sans-serif;
   background-color: #000;
-  color: whitesmoke;
+  color: rgb(231, 231, 231);
 }
 
 .main {
@@ -29,7 +29,7 @@ body {
   &::before{
     content: '';
     display: inline-block;
-    background-image: url("/dist/images/top-bg.png");
+    background-image: url("/public/images/top-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
@@ -43,7 +43,7 @@ body {
   &::after {
     content: '';
     display: inline-block;
-    background-image: url("/dist/images/bottom-bg.png");
+    background-image: url("/public/images/bottom-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
