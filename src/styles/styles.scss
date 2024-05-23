@@ -1,19 +1,56 @@
 @use "header";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
 }
 
 body {
-  background-color: hotpink;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000;
+  color: whitesmoke;
 }
 
-main{
-  padding: 16px;
+.main {
+  padding: 1rem;
+  margin: 1rem;
+  border: 5px solid #ccc;
+  border-radius: 1rem;
+
+  &::before{
+    content: '';
+    display: inline-block;
+    background-image: url("/dist/images/top-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  &::after {
+    content: '';
+    display: inline-block;
+    background-image: url("/dist/images/bottom-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 140vh;
+    z-index: -1;
+  }
 }
