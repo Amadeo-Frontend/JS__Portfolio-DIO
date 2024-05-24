@@ -27,8 +27,8 @@ body {
   border-radius: 1rem;
   position: relative;
 
-  &::before{
-    content: '';
+  &::before {
+    content: "";
     display: inline-block;
     background-image: url("/public/images/top-bg.png");
     background-repeat: no-repeat;
@@ -40,9 +40,9 @@ body {
     height: 100vh;
     z-index: -1;
   }
-  
+
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     background-image: url("/public/images/bottom-bg.png");
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
   }
 }
 
-.main .dio-img{
+.main .dio-img {
   margin: 1.5rem;
   position: absolute;
   bottom: 0;

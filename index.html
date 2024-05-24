@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,12 +18,21 @@
     <div class="main">
       <header>
         <div>
-          <img src="./public/images/eu.png" alt="FOTO AMADEO" class="photo" 
-          data-aos="fade-right" 
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"/>
+          <img
+            src="./public/images/eu.png"
+            alt="FOTO AMADEO"
+            class="photo"
+            data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          />
         </div>
-        <div class="hero-container">
+        <div
+          class="hero-container"
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div class="text-container">
             <h1>
               Olá,<br />
@@ -39,73 +48,103 @@
           </div>
         </div>
       </header>
-      <section class="acordeon">
+      <section class="acordeon" data-aos="fade-up"
+      data-aos-duration="3000">
         <button class="trigger" onclick="toggleAccordion(this)">
           Skills
-          <img id="arrow" src="./public/images/trigger-up.svg" alt="arrow" class="arrow">
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
         </button>
         <div class="accordion-content">
           <ul class="content">
             <li>✔ Português</li>
             <li>✔ Inglês</li>
             <li>✔ Espanhol</li>
-          </ul>   
+          </ul>
         </div>
       </section>
-      <section class="acordeon">
+      <section class="acordeon" data-aos="fade-up"
+      data-aos-duration="2900">
         <button class="trigger" onclick="toggleAccordion(this)">
           Idiomas
-          <img id="arrow" src="./public/images/trigger-up.svg" alt="arrow" class="arrow">
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
         </button>
         <div class="accordion-content">
           <ul class="content">
             <li>✔ Português</li>
             <li>✔ Inglês</li>
             <li>✔ Espanhol</li>
-          </ul>   
+          </ul>
         </div>
       </section>
-      <section class="acordeon">
+      <section class="acordeon" data-aos="fade-up"
+      data-aos-duration="2800">
         <button class="trigger" onclick="toggleAccordion(this)">
           Educação
-          <img id="arrow" src="./public/images/trigger-up.svg" alt="arrow" class="arrow">
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
         </button>
         <div class="accordion-content">
           <ul class="content">
             <li>✔ Português</li>
             <li>✔ Inglês</li>
             <li>✔ Espanhol</li>
-          </ul>   
+          </ul>
         </div>
       </section>
-      <section class="acordeon">
+      <section class="acordeon" data-aos="fade-up"
+      data-aos-duration="2700">
         <button class="trigger" onclick="toggleAccordion(this)">
           Portfolio
-          <img id="arrow" src="./public/images/trigger-up.svg" alt="arrow" class="arrow">
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
         </button>
         <div class="accordion-content">
           <ul class="content">
             <li>✔ Português</li>
             <li>✔ Inglês</li>
             <li>✔ Espanhol</li>
-          </ul>   
+          </ul>
         </div>
       </section>
-      <section id="ex-prof" class="acordeon">
+      <section id="ex-prof" class="acordeon" data-aos="fade-up"
+      data-aos-duration="2600"> 
         <button class="trigger" onclick="toggleAccordion(this)">
           Experiência Profissional
-          <img id="arrow" src="./public/images/trigger-up.svg" alt="arrow" class="arrow">
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
         </button>
-        <div class="accordion-content">
+        <div class="accordion-content" data-aos="zoom-in">
           <ul class="content">
             <li>✔ Português</li>
             <li>✔ Inglês</li>
             <li>✔ Espanhol</li>
-          </ul>   
+          </ul>
         </div>
       </section>
-      <div style="height: 30px;"></div>
-      <img src="./public/images/dio.svg" alt="dio" class="dio-img">
+      <div style="height: 30px"></div>
+      <img src="./public/images/dio.svg" alt="dio" class="dio-img" />
     </div>
 
     <script src="./public/js/main.js"></script>
