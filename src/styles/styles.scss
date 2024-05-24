@@ -1,4 +1,5 @@
 @use "header";
+@use "acordeon";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
@@ -25,6 +26,7 @@ body {
   margin: 1rem;
   border: 5px solid #ccc;
   border-radius: 1rem;
+  position: relative;
 
   &::before{
     content: '';
@@ -53,4 +55,14 @@ body {
     height: 140vh;
     z-index: -1;
   }
+}
+
+.main .dio-img{
+  margin: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48px;
+  height: 20px;
+  display: inline-block;
 }
