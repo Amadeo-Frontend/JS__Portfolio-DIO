@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+    .git-icon {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.5rem;
+    }
+    span {
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    a {
+      color: #cecece70;
+    }
+  }
+}

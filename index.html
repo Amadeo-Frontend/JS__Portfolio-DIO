@@ -15,7 +15,7 @@
     <title>Amadeo Bon | Portfolio</title>
   </head>
   <body>
-    <div class="main">
+    <main class="main">
       <header>
         <div>
           <img
@@ -41,15 +41,22 @@
           </div>
 
           <div class="info">
-            <p class="user">DIO expert</p>
-            <p class="location">DIO expert</p>
-            <p class="phone">DIO expert</p>
-            <p class="mail">DIO expert</p>
+            <a href="https://web.dio.me">
+              <p class="user">DIO expert</p>
+            </a>
+            <a href="https://web.dio.me">
+              <p class="location">DIO expert</p>
+            </a>
+            <a href="https://web.dio.me">
+              <p class="phone">DIO expert</p>
+            </a>
+            <a href="https://web.dio.me">
+              <p class="mail">DIO expert</p>
+            </a>
           </div>
         </div>
       </header>
-      <section class="acordeon" data-aos="fade-up"
-      data-aos-duration="3000">
+      <section class="acordeon" data-aos="fade-up" data-aos-duration="3000">
         <button class="trigger" onclick="toggleAccordion(this)">
           Skills
           <img
@@ -67,8 +74,7 @@
           </ul>
         </div>
       </section>
-      <section class="acordeon" data-aos="fade-up"
-      data-aos-duration="2900">
+      <section class="acordeon" data-aos="fade-up" data-aos-duration="2900">
         <button class="trigger" onclick="toggleAccordion(this)">
           Idiomas
           <img
@@ -78,16 +84,15 @@
             class="arrow"
           />
         </button>
-        <div class="accordion-content">
-          <ul class="content">
-            <li>✔ Português</li>
-            <li>✔ Inglês</li>
-            <li>✔ Espanhol</li>
+        <div class="content" data-aos="fade-up" data-aos-duration="500">
+          <ul class="languages">
+            <li>Português(BR)</li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
           </ul>
         </div>
       </section>
-      <section class="acordeon" data-aos="fade-up"
-      data-aos-duration="2800">
+      <section class="acordeon" data-aos="fade-up" data-aos-duration="2800">
         <button class="trigger" onclick="toggleAccordion(this)">
           Educação
           <img
@@ -105,10 +110,52 @@
           </ul>
         </div>
       </section>
-      <section class="acordeon" data-aos="fade-up"
-      data-aos-duration="2700">
+      <section class="acordeon" data-aos="fade-up" data-aos-duration="2700">
         <button class="trigger" onclick="toggleAccordion(this)">
-          Portfolio
+          Projetos
+          <img
+            id="arrow"
+            src="./public/images/trigger-up.svg"
+            alt="arrow"
+            class="arrow"
+          />
+        </button>
+        <div class="content">
+          <ul class="projects">
+            <li>
+              <div class="git-icon">
+                <img src="./public/images/github.svg" alt="github icon" />
+                <span>Criando um app</span>
+              </div>
+              <a href="https://dio.com">www.dio.com.br</a>
+              <hr />
+            </li>
+            <li>
+              <div class="git-icon">
+                <img src="./public/images/github.svg" alt="github icon" />
+                <span>Criando um app</span>
+              </div>
+              <a href="https://dio.com">www.dio.com.br</a>
+              <hr />
+            </li>
+            <li>
+              <div class="git-icon">
+                <img src="./public/images/github.svg" alt="github icon" />
+                <span>Criando um app</span>
+              </div>
+              <a href="https://dio.com">www.dio.com.br</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        id="ex-prof"
+        class="acordeon"
+        data-aos="fade-up"
+        data-aos-duration="2600"
+      >
+        <button class="trigger" onclick="toggleAccordion(this)">
+          Experiência Profissional
           <img
             id="arrow"
             src="./public/images/trigger-up.svg"
@@ -124,28 +171,9 @@
           </ul>
         </div>
       </section>
-      <section id="ex-prof" class="acordeon" data-aos="fade-up"
-      data-aos-duration="2600"> 
-        <button class="trigger" onclick="toggleAccordion(this)">
-          Experiência Profissional
-          <img
-            id="arrow"
-            src="./public/images/trigger-up.svg"
-            alt="arrow"
-            class="arrow"
-          />
-        </button>
-        <div class="accordion-content" data-aos="zoom-in">
-          <ul class="content">
-            <li>✔ Português</li>
-            <li>✔ Inglês</li>
-            <li>✔ Espanhol</li>
-          </ul>
-        </div>
-      </section>
       <div style="height: 30px"></div>
       <img src="./public/images/dio.svg" alt="dio" class="dio-img" />
-    </div>
+    </main>
 
     <script src="./public/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
