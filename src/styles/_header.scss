@@ -6,17 +6,11 @@ header {
   position: relative;
 }
 
-header ::after {
-  content: "";
-  display: inline-block;
+.menu-icon{
   position: absolute;
-  top: 1rem;
+  width: 1.5rem;
+  top:.5rem;
   right: 0;
-  width: 1rem;
-  height: 1rem;
-  background-image: url("/public/images/header.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .photo {
@@ -94,7 +88,7 @@ header ::after {
 
 .info p.user::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 0.8rem;
   height: 0.8rem;
   background-image: url("/public/images/user.svg");
