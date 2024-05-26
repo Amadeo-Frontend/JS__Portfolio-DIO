@@ -1,0 +1,1 @@
+async function fetchProfileData(){return(await fetch("https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/profile.json")).json()}

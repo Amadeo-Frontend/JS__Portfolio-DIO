@@ -1,58 +1,55 @@
-.skills{
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  tools {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+  }
+
+  .tool-img {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    list-style: none;
+    gap: 2rem;
+    max-width: 200px;
+  }
 
-    h2{
-        font-size: 1rem;
-        text-align: center;
-    }
-    
-    tools{
-        display: flex;
-        
-    }
-
-    .tool-img{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem;
-        list-style: none;   
-        gap: 2rem;
-        max-width: 200px;
-    }
-
-    img{
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
-        background-repeat: no-repeat;
-    }
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
 }
 
-.personal{
-    display: flex;
-    flex-direction: column;
+.personal {
+  display: flex;
+  flex-direction: column;
 
-    .personal-list{
-        padding:2rem 0 2rem 4rem;
-        margin: 0;
-        li{
-            padding: .5rem;
-            margin-left: .5rem;
-        }
+  .personal-list {
+    padding: 2rem 0 2rem 4rem;
+    margin: 0;
+    li {
+      padding: 0.5rem;
+      margin-left: 0.5rem;
     }
+  }
 }
-
-
 
 @media (min-width: 768px) {
-    .skills{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }

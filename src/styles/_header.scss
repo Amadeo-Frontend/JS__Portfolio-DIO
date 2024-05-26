@@ -6,10 +6,10 @@ header {
   position: relative;
 }
 
-.menu-icon{
+.menu-icon {
   position: absolute;
   width: 1.5rem;
-  top:.5rem;
+  top: 0.5rem;
   right: 0;
 }
 
@@ -86,7 +86,7 @@ header {
   }
 }
 
-.info p.user::before {
+.info p.job::before {
   content: "";
   display: inline-block;
   width: 0.8rem;
@@ -122,7 +122,7 @@ header {
   margin-right: 0.5rem;
 }
 
-.info p.mail::before {
+.info p.email::before {
   content: "";
   display: inline-block;
   width: 0.8rem;
