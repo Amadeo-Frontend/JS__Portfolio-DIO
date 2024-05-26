@@ -1,78 +1,78 @@
 {
-  "name": "Amadeo Bon",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "João Silva",
+  "photo": "https://via.placeholder.com/150",
+  "job": "Gerente de Projeto no Banco XYZ",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(21) 99999-8888",
+  "email": "joaosilva@example.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Python",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "C#",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/C_Sharp_logo_2014.svg/1200px-C_Sharp_logo_2014.svg.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Vue.js",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "Django",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1200px-Django_logo.svg.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "MySQL",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/MySQL-icon.png/1200px-MySQL-icon.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "SQL Server",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Microsoft_SQL_Server_Logo.svg/1200px-Microsoft_SQL_Server_Logo.svg.png"
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Comunicabilidade",
+      "Motivação",
+      "Colaboração",
+      "Adaptabilidade",
+      "Metodologia"
     ]
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (avançado)",
+    "Espanhol (nível intermediário)",
+    "Alemão (nível básico)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Projeto de Desenvolvimento Web na UOL",
+      "url": "https://github.com/joaosilvaprojects/web-development-project",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto de Análise de Dados na IBM",
+      "url": "https://github.com/joaosilvaprojects/data-analysis-project",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Engenheiro de Software / Banco XYZ",
+      "period": "2020 - atualmente",
+      "description": "Desenvolvendo soluções inovadoras para melhorar a experiência do cliente."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Lead de Engenharia de Software / IBM",
+      "period": "2018 - 2020",
+      "description": "Contribui para a digitalização da empresa, implementando novas tecnologias."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Fundador / StartUp Tech",
+      "period": "2015 - 2018",
+      "description": "Criou uma startup focada em tecnologias emergentes, impactando positivamente várias indústrias."
     }
   ]
 }
