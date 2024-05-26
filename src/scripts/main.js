@@ -19,29 +19,56 @@ function updateProfileData(profileData) {
 
 function updateSoftSkillsData(profileData) {
   // Verifica se o elemento existe antes de tentar acessá-lo
-  const softSkillsElement = document.getElementById("profile.skills.softSkills");
+  const softSkillsElement = document.getElementById(
+    "profile.skills.softSkills",
+  );
 
   if (softSkillsElement) {
     // Limpa o conteúdo anterior do elemento
-    softSkillsElement.innerHTML = '';
+    softSkillsElement.innerHTML = "";
 
     // Atualiza o conteúdo com novas habilidades suaves
-    softSkillsElement.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('');
+    softSkillsElement.innerHTML = profileData.skills.softSkills
+      .map(skill => `<li>${skill}</li>`)
+      .join("");
   }
 }
 
 function updateHardSkillsData(profileData) {
   // Verifica se o elemento existe antes de tentar acessá-lo
-  const hardSkillsElement = document.getElementById("profile.skills.hardSkills");
+  const hardSkillsElement = document.getElementById(
+    "profile.skills.hardSkills",
+  );
 
   if (hardSkillsElement) {
     // Limpa o conteúdo anterior do elemento
-    hardSkillsElement.innerHTML = '';
+    hardSkillsElement.innerHTML = "";
 
     // Atualiza o conteúdo com novas habilidades suaves
-    hardSkillsElement.innerHTML = profileData.skills.hardSkills.map(skill => 
-      `  <li><img src='${skill.logo}' alt='${skill.name}' title='${skill.name}'/></li>
-      `).join('');
+    hardSkillsElement.innerHTML = profileData.skills.hardSkills
+      .map(
+        skill =>
+          `  <li><img src='${skill.logo}' alt='${skill.name}' title='${skill.name}'/></li>
+      `,
+      )
+      .join("");
+  }
+}
+
+function updateLanguageseData(profileData) {
+  const languages = document.getElementById("profile.languages");
+  if (languages) {
+    // Limpa o conteúdo anterior do elemento
+    languages.innerHTML = "";
+
+    // Atualiza o conteúdo com novas habilidades suaves
+    languages.innerHTML = profileData.languages
+      .map(
+        languages =>
+          `  <li>${languages}</li>
+      `,
+      )
+      .join("");
   }
 }
 
@@ -50,4 +77,5 @@ function updateHardSkillsData(profileData) {
   updateProfileData(profileData);
   updateSoftSkillsData(profileData);
   updateHardSkillsData(profileData);
+  updateLanguageseData(profileData);
 })();

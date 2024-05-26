@@ -32,11 +32,7 @@
       "Gerenciamento de Tempo"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (avançado)",
-    "Alemão (nível básico)"
-  ],
+  "languages": ["Português BR", "Inglês (Intermediário)", "Espanhol (Básico)"],
   "portfolio": [
     {
       "name": "Projeto Icon Express",
