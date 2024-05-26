@@ -1,1 +1,1 @@
-async function fetchProfileData(){return(await fetch("https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/profile.json")).json()}
+async function fetchProfileData(){return(await fetch("https://raw.githubusercontent.com/Amadeo-Frontend/JS__Portfolio-DIO/main/src/data/profile.json")).json()}
