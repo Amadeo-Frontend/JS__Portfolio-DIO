@@ -1,60 +1,61 @@
 {
-  "name": "João Silva",
+  "name": "Amadeo Bon",
   "photo": "https://th.bing.com/th/id/OIG2.vAgkRK84bsKAgaKSytGL?pid=ImgGn",
-  "job": "Gerente de Projeto no Banco xxx",
-  "location": "Rio de Janeiro - RJ",
+  "job": "Desenvolvedor Frontend",
+  "location": "Curitiba - PR",
   "phone": "(21) 99999-8888",
-  "email": "joaosilva@example.com",
+  "email": "amadeobon@outlook.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Python",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+        "name": "React.Js",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "name": "C#",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/C_Sharp_logo_2014.svg/1200px-C_Sharp_logo_2014.svg.png"
+        "name": "GitHub",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Font_Awesome_5_brands_github.svg"
       },
       {
-        "name": "Vue.js",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
+        "name": "Next.js",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Tabler-icons_brand-nextjs.svg"
       },
       {
-        "name": "Django",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1200px-Django_logo.svg.png"
-      },
-      {
-        "name": "MySQL",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/MySQL-icon.png/1200px-MySQL-icon.png"
-      },
-      {
-        "name": "SQL Server",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Microsoft_SQL_Server_Logo.svg/1200px-Microsoft_SQL_Server_Logo.svg.png"
+        "name": "Angular.Js",
+        "logo": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
       }
     ],
     "softSkills": [
       "Comunicabilidade",
-      "Motivação",
+      "Foco e Percistência",
       "Colaboração",
       "Adaptabilidade",
-      "Metodologia"
+      "Gerenciamento de Tempo"
     ]
   },
   "languages": [
     "Português BR",
     "Inglês (avançado)",
-    "Espanhol (nível intermediário)",
     "Alemão (nível básico)"
   ],
   "portfolio": [
     {
-      "name": "Projeto de Desenvolvimento Web na UOL",
-      "url": "https://github.com/joaosilvaprojects/web-development-project",
+      "name": "Projeto Icon Express",
+      "url": "https://github.com/Amadeo-Frontend/React-Icon__Express",
       "github": true
     },
     {
-      "name": "Projeto de Análise de Dados na IBM",
-      "url": "https://github.com/joaosilvaprojects/data-analysis-project",
+      "name": "Projeto Codex - ChatBot",
+      "url": "https://github.com/Amadeo-Frontend/NextJS__Chat-codex",
+      "github": true
+    },
+    {
+      "name": "App Mobile de Adoção de Gatos",
+      "url": "https://github.com/Amadeo-Frontend/React-Native__Cat-adoption-app",
+      "github": true
+    },
+    {
+      "name": "Projeto Quiz Dragon Ball",
+      "url": "https://github.com/Amadeo-Frontend/Angular-Quiz",
       "github": true
     }
   ],

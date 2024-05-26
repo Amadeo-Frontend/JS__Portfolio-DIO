@@ -37,30 +37,10 @@ header {
 
   h1 {
     margin: 0;
-    font-size: 20px;
-    color: rgba(245, 245, 245, 0.164);
-    background-image: url("/public/images/OIP.jpg");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    animation: animate 15s ease-in-out infinite;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.938);
     text-transform: uppercase;
     font-weight: 700;
-  }
-
-  @keyframes animate {
-    0%,
-    100% {
-      background-position: left top;
-    }
-    25% {
-      background-position: right bottom;
-    }
-    50% {
-      background-position: left bottom;
-    }
-    75% {
-      background-position: right top;
-    }
   }
 }
 
