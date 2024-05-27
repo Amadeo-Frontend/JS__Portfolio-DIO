@@ -72,10 +72,50 @@ function updateLanguageseData(profileData) {
   }
 }
 
+function updateProjectsData(profileData) {
+  const portfolioElement = document.getElementById("profile.portfolio");
+
+  if (portfolioElement) {
+    portfolioElement.innerHTML = "";
+    portfolioElement.innerHTML = profileData.portfolio
+     .map(project => {
+        return `
+          <li>
+              <div class="git-icon">
+                <img src="./public/images/github.svg" alt="github icon" />
+                <span>${project.name}</span>
+              </div>
+              <a href="${project.url}" target="_blank">${project.url}</a>
+              <hr />
+            </li>
+          `;
+      })
+     .join("");
+  }
+}
+
+function updateExpirienceData(profileData) {
+  const educationList = document.getElementById('profile.education');
+
+  if (educationList) {
+    educationList.innerHTML = ""; // Limpa o conteúdo anterior do elemento
+
+    profileData.education.forEach(entry => {
+      const listItem = document.createElement('li');
+      listItem.innerHTML = `
+        <strong>${entry.degree}, ${entry.year}</strong> - ${entry.institution}
+      `;
+      educationList.appendChild(listItem);
+    });
+  }
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileData(profileData);
   updateSoftSkillsData(profileData);
   updateHardSkillsData(profileData);
   updateLanguageseData(profileData);
+  updateProjectsData(profileData);
+  updateExpirienceData(profileData);
 })();
