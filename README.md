@@ -4,6 +4,14 @@
 
 Este portfólio é um projeto pessoal desenvolvido para apresentar habilidades, experiências e projetos ao longo da minha carreira como desenvolvedor front-end. Foi projetado para ser responsivo e interativo, proporcionando uma experiência de usuário rica e envolvente.
 
+## Demonstração ▶
+
+
+
+https://github.com/Amadeo-Frontend/JS__Portfolio-DIO/assets/104178969/e840308c-ae08-4fe5-b24f-1b8ab14a6e4d
+
+
+
 ## Tecnologias Utilizadas 💻
 
 - **HTML5** e **CSS3** para a estruturação e estilo básicos.
