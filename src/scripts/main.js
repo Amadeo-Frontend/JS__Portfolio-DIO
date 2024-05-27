@@ -78,7 +78,7 @@ function updateProjectsData(profileData) {
   if (portfolioElement) {
     portfolioElement.innerHTML = "";
     portfolioElement.innerHTML = profileData.portfolio
-     .map(project => {
+      .map(project => {
         return `
           <li>
               <div class="git-icon">
@@ -90,23 +90,31 @@ function updateProjectsData(profileData) {
             </li>
           `;
       })
-     .join("");
+      .join("");
   }
 }
 
 function updateExpirienceData(profileData) {
-  const educationList = document.getElementById('profile.education');
+  const professionalExperience = document.getElementById(
+    "profile.professionalExperience",
+  );
 
-  if (educationList) {
-    educationList.innerHTML = ""; // Limpa o conteúdo anterior do elemento
-
-    profileData.education.forEach(entry => {
-      const listItem = document.createElement('li');
-      listItem.innerHTML = `
-        <strong>${entry.degree}, ${entry.year}</strong> - ${entry.institution}
+  if (professionalExperience) {
+    professionalExperience.innerHTML = "";
+    professionalExperience.innerHTML = profileData.professionalExperience
+      .map(experience => {
+        return `
+      <li>
+      <h2>${experience.name}</h2>
+      <div>
+        <img src="./public/images/calendar.svg" alt="calendar" />
+        <span>${experience.period}</span>
+      </div>
+      <p>${experience.description}</p>
+    </li>
       `;
-      educationList.appendChild(listItem);
-    });
+      })
+      .join("");
   }
 }
 

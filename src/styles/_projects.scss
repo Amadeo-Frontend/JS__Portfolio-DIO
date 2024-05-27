@@ -28,6 +28,11 @@
     }
     a {
       color: #cecece70;
+      text-decoration: none;
+      &:hover{
+        color: rgb(45, 45, 238);
+        text-decoration: underline;
+      }
     }
   }
 }
